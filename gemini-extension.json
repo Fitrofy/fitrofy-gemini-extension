@@ -1,15 +1,16 @@
 {
   "name": "fitrofy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Indian food data and a diet brain from Fitrofy: food search, scans, food logging, diet plans and can-I-eat answers.",
   "contextFileName": "FITROFY.md",
   "mcpServers": {
     "fitrofy": {
       "command": "uvx",
-      "args": ["fitrofy-mcp"],
+      "args": [
+        "fitrofy-mcp"
+      ],
       "env": {
-        "FITROFY_CLIENT_ID": "$FITROFY_CLIENT_ID",
-        "FITROFY_CLIENT_SECRET": "$FITROFY_CLIENT_SECRET"
+        "FITROFY_API_KEY": "$FITROFY_API_KEY"
       }
     }
   }

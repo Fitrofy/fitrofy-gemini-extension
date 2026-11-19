@@ -19,11 +19,10 @@ You also need:
 1. **A Fitrofy account.** Create one at https://apiportal.fitrofy.com; ₹500 is added to it.
 2. **A key** under **API keys**, with this computer's public IP address added to it. Every Fitrofy key accepts calls only from the addresses it lists.
 3. **[uv](https://docs.astral.sh/uv/).** The extension runs the connector with `uvx fitrofy-mcp`.
-4. **Your key in your shell:**
+4. **Your key's secret in your shell.** It is sent as the Bearer token on every call:
 
    ```console
-   export FITROFY_CLIENT_ID=fit_live_all_...
-   export FITROFY_CLIENT_SECRET=fsk_...
+   export FITROFY_API_KEY=fsk_...
    ```
 
 ## Prices
